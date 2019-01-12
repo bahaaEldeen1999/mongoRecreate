@@ -1,0 +1,575 @@
+*
+{
+    box-sizing: border-box;
+    transition: all .2s ease-in-out
+}
+body
+{
+    font-family: 'raleway';
+    color: #333333;
+    overflow-x: hidden
+}
+h4
+{
+    font-family: 'Kaushan Script'
+}
+section
+{
+    padding: 70px 0px
+}
+.overlay
+{
+    padding: 70px 0;
+    background: linear-gradient( rgba(231, 133, 130,1), rgba(235, 207, 129,.8));
+    min-height: 100vh;
+    
+    
+}
+h1,h2,h3,h4,h5,h6,a.btn
+{
+    text-align: center ;
+    margin-bottom: 30px;
+    font-weight: bold
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block
+}
+a:hover
+{
+    text-decoration: none;
+    color: inherit
+}
+.row
+{
+    padding-top: 30px
+}
+h1,h2,h3
+{
+    font-weight: bold
+}
+.redhr
+{
+    height: 0;
+    width: 10%;
+    border-top: solid 1px #F38181
+}
+p
+{
+    color: #c1c1c1 
+}
+.row img
+{
+    width: 100%
+}
+/*navbar*/
+.navbar
+{
+    background-color: transparent;
+}
+.navbar a
+{
+    color: white
+}
+.navbar-nav
+{
+    width: 100%
+}
+#nbar
+{
+    color: white !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #FCE38A !important;
+    border-bottom: 2px solid #FCE38A;
+    
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: white !important;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+/*home*/
+#home
+{
+    padding: 0px;
+    background-image: url(../images/bg-header.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white
+}
+#home hr
+{
+    width: 10%;
+    height: 0;
+    border-top: 1px solid white
+}
+#home h1
+{
+    font-size: 3.5rem
+}
+#home h4
+{
+    font-size: 3em
+}
+#home .learnmore
+{
+    border: 1px solid white;
+    width: 150px;
+    margin: 30px auto 60px
+}
+/*about*/
+
+#about img
+{
+    width: 100%;
+    
+}
+.fix1,.fix2,.fix3
+{
+    position: relative;
+}
+.fix21,.fix22,.fix23,fix24,.fix25,.fix26,.fix27
+{
+    position: relative;
+    margin: 0;
+    padding: 0; 
+}
+.overlay1,.overlay2,.overlay3
+{
+    background: linear-gradient(240deg, rgba(243, 146, 139,.7), rgba(235, 207, 129,.7));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    opacity: 0
+}
+
+.overlay1 p,.overlay2 p,.overlay3 p
+{
+    color: white
+}
+.overlay1 i,.overlay2 i,.overlay3 i
+{
+    padding-top: 40px
+}
+#about p
+{
+    color: #c1c1c1;
+    text-align: center !important;
+}
+
+/*numbers*/
+#numbers
+{
+    background-color: #95E1D3;
+    color: white;
+    padding: 0 0 10px 0 ;
+}
+#numbers .row
+{
+    margin: auto;
+    padding: 10 0
+}
+#numbers h1
+{
+    font-size: 3em
+}
+#numbers .col1
+{
+    border-left: 1px solid white
+}
+/*service*/
+#service h5
+{
+    text-align: left !important
+}
+#service p
+{
+    padding-left: 50px;
+    color: #c1c1c1
+}
+#service i
+{
+    color: #95E1D3
+}
+/*device*/
+#device
+{
+    background-image: url(../images/unique-design/bg-unique-design.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover
+}
+#device img
+{
+    margin: auto;
+    text-align: center;
+    width: 100%
+    
+}
+#device .col-md-3 img
+{
+    width: 60%;
+    margin-top: 400px;
+    margin-left: -100px
+}
+/*service 2*/
+#service2 h5
+{
+    text-align: left !important
+}
+#service2 a
+{
+    color: #333333;
+    text-align: left !important;
+   
+    display: inline
+}
+#service2 img
+{
+    width: 100%
+}
+#service2 i
+{
+    color: #95E1D3;
+    padding-right: 20px
+}
+#service2 .card
+{
+    margin-top: 10px
+}
+#service2 .card-header
+{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #c1c1c1
+}
+.card-block
+{
+    color: #c1c1c1;
+    padding-left: 10px
+}
+/*t1*/
+#t1
+{
+    color: #333333
+}
+#t1 hr
+{
+    display: inline-block;
+    height: 0;
+    width: 5%;
+    border-bottom: solid 2px #F38181;
+}
+#t1 h4
+{
+    text-align: left!important;
+    color: #9A9A9A
+    
+}
+#t1 i
+{
+    padding: 20px;
+    border: 1px solid #95E1D3;
+    color: #95E1D3;
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin: auto
+}
+/*team*/
+#team img
+{
+    width: 100%;
+  
+}
+#team .fixshadow
+{
+    padding: 30px
+}
+#team
+{
+    text-align: center
+}
+#team h5
+{
+    padding-top: 20px
+}
+#team h6
+{
+    color: #9A9A9A
+}
+
+/*brand*/
+#brand
+{
+    background-color: #F8F8F8;
+    padding: 10px;
+    text-align: center;
+    
+}
+#brand img
+{
+   
+  width: 100%;
+}
+#brand img:hover
+{
+    transform: scale(1.2)
+}
+/*work*/
+#work .col-md-3
+{
+    padding: 0;
+}
+#work
+{
+    text-align: center
+}
+#work .slider2
+{
+    margin-top: 50px
+}
+
+#work hr
+{
+    display: inline-block;
+    height: 0;
+    width: 5%;
+    border-bottom: solid 2px #F38181;
+}
+#work h5
+{
+    text-align: left!important;
+    color: #9A9A9A;
+    font-family: 'Kaushan Script'
+    
+}
+#work .slider2 img
+{
+    padding: 0px;
+    border: 1px solid #95E1D3;
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%
+}
+#work .slider2 p
+{
+    margin-top: 50px
+}
+.overlay21,.overlay23,.overlay26
+{
+    background: linear-gradient(240deg, rgba(243, 146, 139,.7), rgba(235, 207, 129,.7));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    bottom: 0;
+    right: 0;
+}
+.overlay25
+{
+   background: linear-gradient(240deg, rgba(243, 146, 139,.7), rgba(235, 207, 129,.7));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    right: 0;
+    opacity: 0 
+}
+.overlay22,.overlay24,.overlay27
+{
+   background: linear-gradient(240deg, rgba(243, 146, 139,.7), rgba(235, 207, 129,.7));
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height:0;
+    text-align: center;
+    color: white;
+    padding:0;
+    opacity: 0 ;
+    bottom: 0;
+    right: 0;
+}
+/*client*/
+#client
+{
+    text-align: left;
+    background-image: url(../images/happy-client/bg-happy-client.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+}
+#client .row img
+{
+    width: 60%;
+    border-radius: 50%;
+}
+#client .row h5, #client .row h6
+{
+    text-align: left;
+}
+#client .row hr
+{
+    display: inline-block;
+    text-align: left
+}
+/*blog*/
+#blog .pbox
+{
+    position: relative;
+    
+}
+#blog .boxdate
+{
+    position: absolute;
+    padding: 10px;
+    background-color: #95E1D3;
+    color: white;
+    top: 60%;
+    left: -5%
+}
+#blog .boxdate h5,#blog .boxdate h3
+{
+    margin: 0
+}
+#blog h5.titleblog
+{
+    color: #95E1D3;
+    text-align: left;
+    margin-top: 10px
+}
+#blog i
+{
+    color: #95E1D3
+}
+#blog i span
+{
+    color: #c1c1c1
+}
+/*map*/
+#map
+{
+    color: #F38181;
+    background-image: url(../images/map/bgmap.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#map h2
+{
+    cursor: pointer
+}
+#map iframe
+{
+    display: none;
+    width: 100%;
+    height: 200px;
+    margin: auto
+}
+/*footer*/
+footer h1
+{
+    text-align: left !important;
+    color: #CCCCCC
+}
+footer h5
+{
+    text-align: left !important;
+
+}
+footer i
+{
+    color: #95E1D3
+
+}
+footer .col-md-3
+{
+    
+    padding: 2px;
+}
+.media img
+{
+    width: 50%
+}
+.media h5
+{
+    color: #41C579
+}
+footer .text-center
+{
+    text-align: center !important
+}
+.mail
+{
+    border-right: none;
+    padding: 10px;
+    margin-right: 0;
+    border-left: 1px solid #888888;
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+   
+    
+    
+}
+.button
+{
+    padding: 12px 10px;
+    background-color: #95e1d3;
+    color: white;
+    border: none;
+    cursor: pointer
+}
+footer p
+{
+    color: #ABABAB
+}
+.copy
+{
+    padding: 20px
+}
+/*test*/
+.gradient
+{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(240deg, rgba(243, 146, 139,1), rgba(235, 207, 129,1));
+}
+/*media*/
+@media screen and (max-width:900px){
+    *{
+        text-align: center !important
+    }
+    #device .col-md-3 img
+{
+    width: 60%;
+    margin: auto
+}
+.navbar{
+    background-color: #F38181
+}
+#numbers .col1{
+    border: none !important
+}
+}
